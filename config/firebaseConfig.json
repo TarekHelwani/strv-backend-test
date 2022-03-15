@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "strv-addressbook-helwani-tarek",
+    "private_key_id": "0eb2a108cee2ac64ccc501543cba0209fee55b8f",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9s9Qbzsg+HXc3\nwlm18vSy1He62KnHNrkVghBSYnRWQi5V86SBordha4LpbCFb7NYMB2Ku0K6kpioD\n7RLfI70B2HyE4jnSGROi8Uo+IN2tp/SmEQ8r5akaOftYIRDGVo+9MjivNCC0HzmI\nLKADtSjTW9SPjPbMmMLznKr0i1HC0E0Z1nipR125NsGiZjMfBlAqjmh1wGz3lyxJ\ntQAh3oMj7s9ThRaITHItPNO4KObuXSSXa0g/La85Ia4iNo5WUeNMiw9+JYuLIIFW\nhzgk4zbAjDRfIuXpFho55XRSGq7t2GJ0NVsQspuiTRpl2Xm64aUn6FNF37msXgR7\nHmz9o16JAgMBAAECggEAJ5Z6Cq2N6yyB/xBfYVGI0DL3o3XohEq+uCbS2iZyqbeY\n7NXx/B2lUD677JNkqMbVamA2L04cS/7jILueJxPRsytm3OJK97XE+8mH2UxJhp5Y\ntzkzJdGBBxiXg64uzn0s9OogmytxMbWcb3cEk5GAKg9tXeGodUzhzi3hHTRfxRwP\nzXKN4NbQpjrXkRQRg5fmLJ47swOXY3RjRZWzc0NaFbqdqXfWhA/LqiE/v5+Lmu2O\nueLn/w2d5kNMrAV1zsKIH+MELpzeeFFMXbz0OIFP2RWVK4J/n2i0x8W84cc4CLcW\nnc4fLXALl37k1QY+SW8uGVgogVZcFvAXjdXntvSFyQKBgQDwplvcW2yjsJ2s0k8Z\nccb8UmFqtlEumNS9m9HIv4l0DihExTKWkVwJUfqEEgdltigxPP0aMiVHxJ67xesX\nwM6/PVUaW8/1n15c6rwP0X+CvQKOZF9JjlH1lqk9Y344NnL3OkeSKEUVt5vVTt1n\nlC2DjXUmp119LYxS82qs0yAvvQKBgQDJzYj65hOtWeQ19HnYvXpLWJWoXCNhZCBf\n/GbXpBfYAVAQ8SUsh6mmgaNBUpExNX1ZkLOSEpSmwzCdosHSZJORenkW199I6R0z\n/A70rGwSrunwiFYbSN/vp/OtsvHltRnUEbLqj+x/a7exhqzLF+q2iNcwTCHd6BPm\naRRyuNKgvQKBgQDGIdHj/YnWw6UuEwF5C4ovWIxIVc9FNCOD8PSp+bjrynQxGsLp\n4MgMDGjbsBRTE8THtVUV6k9zZVjjdLJ4nhAauB6HUyxHKG2CxukLhQsc0w11uwIR\nB5JHR0IT/wR+t6W0E1G17l3i4Yb1+rajfwZyF1dq+cUpOQUdjrg3jqQjaQKBgQCD\nYyNVH2keS1Fu445VVAAEgFdn9x098n+1ntKigX7YrvofHbHzTRxigTL2e7h2Tnof\nTzvq1dgcvyau62HABqWhaRjfi4sfoE7YIrrmCECQ5XsAlPNi7k6GbVYU+FXQFdoM\nHb3cQ/pZd5twpNtpm1fAolVgZ6EBJnGWaUHb84OHDQKBgEs3H7NgXPAH5dPCpWbP\nj0hcuDd7EuVQ85E+IBDn4XdGPMWKgYogJS/iY6vo1MUAW1rlmvXOJeeJ6X3haV2n\nk3Wj7SrwYg31eWgUqX3FxvYrdxAdj6HTOSbEs6DJWUlkF8LsruhI2Ov910Px2/j2\nmaFP9+/NigJwTvnDSfQmnR2I\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-qehyg@strv-addressbook-helwani-tarek.iam.gserviceaccount.com",
+    "client_id": "110154566925882056966",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-qehyg%40strv-addressbook-helwani-tarek.iam.gserviceaccount.com"
+}

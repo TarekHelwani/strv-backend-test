@@ -1,0 +1,34 @@
+{
+  "name": "node-full-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "mocha tests",
+    "swagger-autogen": "node ./swagger.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "firebase-admin": "^10.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.6",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-beta.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.2",
+    "mockery": "^2.1.0",
+    "nodemon": "^2.0.15",
+    "swagger-autogen": "^2.19.0"
+  }
+}
