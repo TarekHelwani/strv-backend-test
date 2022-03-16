@@ -16,41 +16,36 @@ describe('Users API', () => {
         password: faker.internet.password()
     }
 
-    describe('POST /api/users/register', () => {
-        it('Register a new user.', function (done) {
-            chai.request(server)
-                .post('/api/users/register')
-                .send(user)
-                .end((err, response) => {
-                    response.should.have.status(200)
-                    response.body.should.be.a('object')
-                    response.body.should.have.property('message')
-                        .eq('Success')
-                    response.body.should.have.property('data')
-                        .should.be.a('object')
-                    response.body.data.user.should.have.property('email').eq(user.email)
-                    response.body.data.should.have.property('accessToken')
-                })
-            done()
-        });
-    })
+    it('POST /api/users/register --> Register a new user.', function (done) {
+        chai.request(server)
+            .post('/api/users/register')
+            .send(user)
+            .end((err, response) => {
+                response.should.have.status(200)
+                response.body.should.be.a('object')
+                response.body.should.have.property('message')
+                    .eq('Success')
+                response.body.should.have.property('data')
+                    .should.be.a('object')
+                response.body.data.user.should.have.property('email').eq(user.email)
+                response.body.data.should.have.property('accessToken')
+            })
+        done()
+    });
 
-    describe('POST /api/users/login', () => {
-        it('Login a user.', function (done) {
-            console.log(user)
-            chai.request(server)
-                .post('/api/users/register')
-                .send(user)
-                .end((err, response) => {
-                    response.should.have.status(200)
-                    response.body.should.be.a('object')
-                    response.body.should.have.property('message')
-                        .eq('Success')
-                    response.body.should.have.property('data')
-                        .should.be.a('object')
-                    response.body.data.should.have.property('accessToken')
-                })
-            done()
-        });
-    })
+    it('POST /api/users/login --> Login a user.', function (done) {
+        chai.request(server)
+            .post('/api/users/register')
+            .send(user)
+            .end((err, response) => {
+                response.should.have.status(200)
+                response.body.should.be.a('object')
+                response.body.should.have.property('message')
+                    .eq('Success')
+                response.body.should.have.property('data')
+                    .should.be.a('object')
+                response.body.data.should.have.property('accessToken')
+            })
+        done()
+    });
 })

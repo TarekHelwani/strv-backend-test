@@ -9,26 +9,24 @@ chai.should()
 chai.use(chaiHttp);
 
 describe('Contacts API', () => {
-    describe('POST /api/contacts/create', () => {
-        it('should add a contact to firebase',  function (done) {
-            const contact = {
-                firstName: faker.name.firstName(),
-                lastName: faker.name.lastName(),
-                address: faker.address.streetAddress(),
-                phoneNumber: faker.phone.phoneNumberFormat()
-            }
-            const token = createJWTToken(faker.internet.email())
-            chai.request(server)
-                .post('/api/contacts/create')
-                .auth(token, { type: 'bearer' })
-                .send(contact)
-                .end((err, response) => {
-                    response.should.have.status(200)
-                    response.body.should.be.a('object')
-                    response.body.should.have.property('message')
-                        .eq('Contact has been added.')
-                })
-            done()
-        });
+    it('POST /contacts/register --> should add a contact to firebase',  function (done) {
+        const contact = {
+            firstName: faker.name.firstName(),
+            lastName: faker.name.lastName(),
+            address: faker.address.streetAddress(),
+            phoneNumber: faker.phone.phoneNumberFormat()
+        }
+        const token = createJWTToken(faker.internet.email())
+        chai.request(server)
+            .post('/api/contacts/create')
+            .auth(token, { type: 'bearer' })
+            .send(contact)
+            .end((err, response) => {
+                response.should.have.status(200)
+                response.body.should.be.a('object')
+                response.body.should.have.property('message')
+                    .eq('Contact has been added.')
+            })
+        done()
     })
 })
